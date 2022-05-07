@@ -1,0 +1,314 @@
+header {
+  background-color: #00ADE7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.btn-entrar {
+  background-color: #00ADE7;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: 0px 0px 10px 0px rgb(251 251 251 / 98%);
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+.btn-criar {
+  background-color: #02467D;
+  color: #FFF;
+  border: 2px solid #02467D;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: 0px 0px 10px 0px rgb(251 251 251 / 98%);
+  padding: 5px 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.conteudo1 {
+  background-image: url(/img/banner1.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 0px;
+}
+
+.conteudo1 div {
+  max-width: 500px;
+}
+
+.title1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #00ADE7;
+}
+
+.subtitle1 {
+  font-size: 31px;
+  color: #004578;
+  font-family: "Roboto", Sans-serif;
+}
+
+.btn1 {
+  color: #FFF;
+  font-size: 29px;
+  font-weight: 500;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  background-color: #02467D;
+  border-radius: 23px 23px 23px 23px;
+  padding: 7px 20px;
+}
+
+.btn1:hover {
+  color: #FFF;
+}
+
+.conteudo2 {
+  background-color: #00ADE7;
+  background-image: url(/img/seguranca.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position-y: 80px;
+  background-position-x: 39%;
+  background-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo2 div {
+  max-width: 685px;
+}
+
+.conteudo2-right {
+  padding: 0px 0px 0px 3%;
+}
+
+.title2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #FFF;
+  line-height: 60px;
+}
+
+.subtitle2 {
+  font-size: 31px;
+  color: #004578;
+  font-family: "Roboto", Sans-serif;
+}
+
+.btn2 {
+  font-size: 29px;
+  font-weight: 500;
+  background-color: #02467D;
+  color: #FFF;
+  border-radius: 23px 23px 23px 23px;
+  padding: 7px 20px; 
+}
+
+.btn2:hover {
+  color: #FFF;
+}
+
+.conteudo3 {
+  background-image: url(/img/banner2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 0px;
+}
+
+.conteudo3 div {
+  max-width: 620px;
+}
+
+.title3 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #00ADE7;;
+}
+
+.subtitle3 {
+  font-size: 31px;
+  color: #004578;
+  font-family: "Roboto", Sans-serif;
+}
+
+.btn3 {
+  font-size: 29px;
+  font-weight: 500;
+  background-color: #02467D;
+  color: #FFF;
+  border-radius: 23px 23px 23px 23px;
+  padding: 7px 20px; 
+}
+
+.btn3:hover {
+  color: #FFF;
+}
+
+footer {
+  background-color: #02467D;
+  color: #FFF;
+  padding: 80px 0px;
+}
+
+.footer-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sociais {
+  display: flex;
+}
+
+.sociais div {
+  margin-right: 10px;
+}
+
+.sociais a {
+  background-color: #1e5a8b;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.sociais a:hover {
+  background-color: #29567b;
+}
+
+.sociais img {
+  position: relative;
+  top: -2px;
+}
+
+@media (max-width: 1000px) {
+  .conteudo1 img, .conteudo2 img, .conteudo3 img {
+    width: 300px;
+  }
+  .conteudo3 div {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 810px) {
+  .conteudo1, .conteudo2, .conteudo3 {
+    padding-left: 2%;
+  }
+  .conteudo1 img, .conteudo2 img, .conteudo3 img {
+    width: 250px;
+  }
+  .title1, .title2, .title3 {
+    font-size: 35px;
+  }
+  .subtitle1, .subtitle2, .subtitle3 {
+    font-size: 25px;
+  }
+  .btn1, .btn2, .btn3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .conteudo1 img, .conteudo2 img, .conteudo3 img {
+    width: 200px;
+  }
+  .title1, .title2, .title3 {
+    font-size: 25px;
+  }
+  .title2 {
+    line-height: 30px;
+  }
+  .subtitle1, .subtitle2, .subtitle3 {
+    font-size: 15px;
+  }
+  .btn1, .btn2, .btn3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 470px) {
+  .area-logo img {
+    width: 150px;
+    padding-left: 10px;
+  }
+  .btn-entrar, .btn-criar {
+    padding: 5px 10px;
+  }
+  .btn-criar {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .logo-footer img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 450px) {
+  .conteudo1 {
+    display: grid;
+  }
+  .conteudo1-right {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .conteudo2 {
+    display: grid;
+  }
+  .conteudo2-left {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .conteudo2 div {
+    max-width: 500px;
+  }
+  .conteudo2-right {
+    padding-bottom: 5%;
+  }
+  .conteudo3 {
+    display: grid;
+  }
+  .conteudo3-right {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 370px) {
+  .area-logo img {
+    width: 120px;
+    padding-left: 5px;
+  }
+  .btn-entrar, .btn-criar {
+    font-size: 13px;
+    padding: 5px 7px;
+  }
+  .btn-criar {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 300px) {
+  .area-logo img {
+    width: 100px;
+  }
+  .btn-entrar, .btn-criar {
+    font-size: 11px;
+    padding: 5px;
+  }
+}
